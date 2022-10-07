@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-title {
+  font: 700 1.875rem "Poppins", sans-serif;
+  color: #1a1423;
+}
+
+.texto-mid {
+  font: 500 1.125rem "DM Sans", sans-serif;
+  color: #34312d;
+}
+/* a imagem fica de fundo */
+header {
+  background: url(./assets/img/praia-4.jpg);
+  height: calc(100vh - 9.375rem);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#nome {
+  font: 700 1.5rem "Poppins", sans-serif;
+  padding: 1.5rem 0 0 1.75rem;
+}
+
+#nome span {
+  color: #45a054;
+}
+/* style do text */
+.text {
+  max-width: 27rem;
+  margin: 8rem auto;
+  text-align: center;
+  color: #34312d;
+  font-weight: bold;
+}
+
+.text-mid {
+  color: #1a1423;
+  margin-bottom: 0.7rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+
+button a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #2a79ad;
+}
+
+button:hover {
+  background: #c3dee9;
+}
+
+/* contact */
+
+main {
+  height: 9.75rem;
+  background-color: #c3dee9;
+}
+#contact-logo {
+  padding: 1.75rem 0 0 1.75rem;
+  font: 700 1.5rem Poppins, sans-serif;
+}
+#contact-logo span {
+  color: #45a054;
+}
+section p {
+  padding: 0.75rem 0 0 1.75rem;
+}
+
+#icons a {
+  margin: 0 0, 75rem 0 0;
+  text-align: right;
+  float: right;
+  text-decoration: none;
+}
+section div a:hover {
+  transition: 0.3s;
+  transform: translateY(-0.5rem);
+}
